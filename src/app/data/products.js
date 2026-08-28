@@ -1,6 +1,7 @@
-    export const products = [
+export const products = [
   {
     id: 1,
+    slug: "iphone-15",
     name: "iPhone 15",
     brand: "Apple",
     category: "electronics",
@@ -9,11 +10,12 @@
     featured: true,
     newest: true,
     image:
-      "https://images.unsplash.com/photo-1592286927505-2fd4e5c7f2f8?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1709178295038-acbeec786fcf?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 2,
     name: "MacBook Air M3",
+    slug: "macbook-air-m3",
     brand: "Apple",
     category: "electronics",
     price: 1099,
@@ -26,6 +28,7 @@
   {
     id: 3,
     name: "Galaxy S24",
+    slug: "galaxy-s24",
     brand: "Samsung",
     category: "electronics",
     price: 849,
@@ -38,6 +41,7 @@
   {
     id: 4,
     name: "Sony WH-1000XM5",
+    slug: "sony-wh-10000xms",
     brand: "Sony",
     category: "electronics",
     price: 399,
@@ -50,6 +54,7 @@
   {
     id: 5,
     name: "Classic Denim Jacket",
+    slug: "classic-denim-jacket",
     brand: "Levi's",
     category: "fashion",
     price: 89,
@@ -62,6 +67,7 @@
   {
     id: 6,
     name: "Premium Sneakers",
+    slug: "premium-sneakkers",
     brand: "Nike",
     category: "fashion",
     price: 129,
@@ -74,6 +80,7 @@
   {
     id: 7,
     name: "Cotton T-Shirt",
+    slug: "cotton-t-shirt",
     brand: "Uniqlo",
     category: "fashion",
     price: 29,
@@ -86,6 +93,7 @@
   {
     id: 8,
     name: "Leather Backpack",
+    slug: "leather-backpack",
     brand: "Fossil",
     category: "accessories",
     price: 149,
@@ -98,6 +106,7 @@
   {
     id: 9,
     name: "Classic Wrist Watch",
+    slug: "classic-wirst-watch",
     brand: "Casio",
     category: "accessories",
     price: 119,
@@ -110,6 +119,7 @@
   {
     id: 10,
     name: "Modern Table Lamp",
+    slug: "modern-table-lamp",
     brand: "IKEA",
     category: "home",
     price: 59,
@@ -122,7 +132,8 @@
   {
     id: 11,
     name: "Minimalist Chair",
-    brand: "IKEA",
+    slug: "iphone",
+    brand: "minimalist-chair",
     category: "home",
     price: 199,
     rating: 4.6,
@@ -134,6 +145,7 @@
   {
     id: 12,
     name: "Coffee Maker",
+    slug: "coffee-maker",
     brand: "De'Longhi",
     category: "home",
     price: 179,
