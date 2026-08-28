@@ -3,9 +3,8 @@ import Link from "next/link";
 export default function ProductCard({ product }) {
   return (
     <div className="overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:-translate-y-1 hover:shadow-lg">
-      
       {/* Product Image */}
-      <Link href={`/products/${product.id}`}>
+      <Link href={`/products/${product.slug}`}>
         <div className="h-56 overflow-hidden bg-gray-100">
           <img
             src={product.image}
@@ -17,11 +16,9 @@ export default function ProductCard({ product }) {
 
       {/* Product Info */}
       <div className="p-5">
-        <p className="text-sm text-gray-500">
-          {product.brand}
-        </p>
+        <p className="text-sm text-gray-500">{product.brand}</p>
 
-        <Link href={`/products/${product.id}`}>
+        <Link href={`/products/${product.slug}`}>
           <h3 className="mt-1 text-lg font-semibold text-gray-900 hover:text-blue-600">
             {product.name}
           </h3>
